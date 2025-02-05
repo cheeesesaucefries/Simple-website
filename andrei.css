@@ -1,0 +1,122 @@
+
+You sent
+h1 {
+    color: blue;
+}
+
+.red-text {
+    color: red;
+}
+
+#main-heading {
+    font-size: 30px;
+}
+
+h1.p {
+    color: darkgreen;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    background-color: pink;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 1000px;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid  #333;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.2);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+}
+
+nav a {
+    height: 100px;
+    width: 50px;
+    color: black;
+    margin:  15px;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 30px;
+}
+
+div {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.box {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media(max-width: 600px) {
+    body {
+        background-color: lightpink;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    div {
+        width: 200px;
+        height: 100px;
+    }
+}
